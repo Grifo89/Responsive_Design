@@ -1,0 +1,243 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.section-col {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  column-gap: 20px;
+  margin: 0 auto;
+  max-width: 1192px;
+  padding: 20px;
+}
+
+/* .recent-blog {
+  display: flex;
+  flex-direction: column;
+} */
+
+.recent-blog h2 a {
+  color: #f42;
+  font-weight: bolder;
+  font-size: 28px;
+  line-height: 32px;
+  font-family: "Chivo", sans-serif;
+  padding: 12px 0;
+  margin-top: 12px;
+  letter-spacing: 0.09rem;
+}
+
+.recent-blog h2 a:hover {
+  color: black;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 75%;
+  height: 0;
+  margin-top: 12px;
+  width: 100%;
+}
+
+.blog-image {
+  background-size: cover;
+  background-position: 50%;
+  background-color: #000;
+  /* top: 0; */
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+.shadow-logo {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0px;
+  right: 0;
+  left: 0;
+  opacity: 1;
+  background-size: 100% 100%;
+  /* background: transparent linear-gradient(to top, black, white); */
+  background: transparent url(./assets/image-gradient.png);
+}
+
+.popular-header {
+  color: white;
+  padding: 14px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.popular-header h5 {
+  color: #fff;
+  font-size: 13px;
+  pointer-events: none;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+}
+
+.popular-header h3 {
+  color: white;
+  font-weight: 700;
+  line-height: 1.1;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.popular-baseline li {
+  display: inline-block;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 12px;
+  padding: 5px 0;
+}
+
+.popular-baseline li a {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+/* .blog-one {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/cheap-dell-s3219d-monitor-368x276.jpg);
+}
+
+.blog-two {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/zenkey-hed-368x276.png);
+} */
+
+.blog-three {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/TikTok-Court-368x276.jpg);
+}
+
+.blog-latest {
+  display: grid;
+  grid-template-columns: 2fr minmax(96px, 100px);
+  grid-template-rows: minmax(96px, 100px);
+  background-color: rgba(255, 68, 34, 0.06);
+}
+
+.blog-latest ul {
+  padding: 16px 5px 0 16px;
+}
+.blog-latest ul li h3 {
+  color: #f42;
+  font-size: 13px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+}
+
+.blog-latest ul li a {
+  font-size: 14px;
+  max-height: 56px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.blog-latest ul li a:hover,
+.popular-header h3:hover {
+  text-decoration: underline;
+}
+
+.latest-image {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/02/Samsung-Galaxy-Fold-hed.jpg);
+  background-repeat: no-repeat;
+  background-color: #000;
+  background-position: 50%;
+  background-size: cover;
+  height: 96px;
+  width: 96px;
+}
+
+.more-blog {
+  padding-bottom: 40px;
+}
+.more-blog ul li {
+  border-bottom: 1px solid #eee;
+}
+
+.blog-item {
+  display: flex;
+  align-items: center;
+}
+
+.blog-item a {
+  color: #555;
+  display: block;
+  padding: 6px 0 6px 10px;
+  position: relative;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.2rem;
+}
+
+.blog-item a:hover {
+  color: #000;
+}
+
+.blog-item div {
+  background-color: #f42;
+  border-radius: 50%;
+  height: 6px;
+  width: 12px;
+}
+
+.caret:hover::after {
+  background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" stroke="%23000" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"/></svg>');
+}
+
+.caret::after {
+  background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" stroke="%23F42" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"/></svg>');
+  background-size: 16px 16px;
+  content: "";
+  display: inline-block;
+  height: 16px;
+  margin-left: 4px;
+  position: relative;
+  top: 0;
+  width: 16px;
+}
+
+/* 
+@media (max-width: 1215px) {
+  .section-col {
+    grid-template-columns: ;
+  }
+} */
+
+@media (max-width: 1024px) {
+  .section-col {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-col {
+    grid-template-columns: 1fr;
+  }
+
+  .blog-item div {
+    height: 4px;
+    width: 8px;
+  }
+}
