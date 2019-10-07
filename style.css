@@ -1,0 +1,34 @@
+.nav1 {
+  background: #ffbfe4;
+  display: flex;
+  justify-content: space-between;
+  height: 32px;
+}
+
+.nav2{
+  display: flex;
+  justify-content: space-between;
+  height: 48px
+}
+
+.separator{
+  background: yellow;
+  width: 100%;
+  height: 30px;
+}
+.hero{
+  /* height: 75vh;
+  max-height: 560px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1em;
+}
+
+.hero .thumbnail-hero{
+  grid-area: 1/1/3/3;
+}
+
+.flex{
+  display: flex;
+}
