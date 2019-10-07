@@ -1,5 +1,27 @@
+:root{
+  font-size: calc(1vw + 0.6em);
+  height: auto;
+}
+
+*{
+  border: 1px solid red !important;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+h1{
+  margin: 0 auto;
+  max-width: 1188px;
+  padding: 0 20px;
+}
+
+.logo, .hamburger{
+  display: none;
+}
 .nav1 {
-  background: #ffbfe4;
   display: flex;
   justify-content: space-between;
   height: 32px;
@@ -8,7 +30,7 @@
 .nav2{
   display: flex;
   justify-content: space-between;
-  height: 48px
+  height: 49px
 }
 
 .separator{
@@ -17,12 +39,12 @@
   height: 30px;
 }
 .hero{
-  /* height: 75vh;
-  max-height: 560px; */
+  height: 75vh;
+  max-height: 560px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-gap: 1em;
+  grid-gap: 0.5em;
 }
 
 .hero .thumbnail-hero{
@@ -31,4 +53,89 @@
 
 .flex{
   display: flex;
+}
+
+.thumbnail-wrapper{
+  margin: 0 auto;
+  max-width: 1192px;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 11rem);
+  grid-gap: 1em;
+  justify-content: center;
+}
+
+.thumbnail{
+  height: 12rem;
+}
+
+.title{
+  font-size: 28px;
+  line-height: 32px;
+  color: #f42;
+  font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+  .logo{
+    display: block;
+    height: 82px;
+    width: 106px;
+    position: relative;
+    float: left;
+  }
+
+  .funding-rounds .thumbnail:last-child{
+    display: none;
+  }
+
+}
+
+@media (max-width: 768px) {
+  :root{
+    height: auto;
+  }
+  .nav1{
+    display: none;
+  }
+  .nav2{
+    justify-content: flex-end;
+  }
+  .nav2-links{
+    display: none
+  }
+  .hamburger{
+    display: inline-flex;
+  }
+  .logo{
+    height: 50px;
+  }
+  .thumbnail-wrapper{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto-fill, 88px);
+    grid-gap: 0;
+  }
+  .thumbnail{
+    height: 88px;
+    display: flex;
+  }
+
+  #thumbnail-funding{
+    height: 13rem;
+  }
+  .hero{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 318.4px);
+    margin-bottom: 450px;
+  }
+  .hero .thumbnail-hero{
+    grid-area: 1/1/1/1;
+  }
+  .funding-rounds .thumbnail:last-child{
+    display: flex;
+  }
+  .funding-rounds{
+    margin-bottom: 40px;
+  }
+
 }
