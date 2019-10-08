@@ -560,12 +560,7 @@ h1 > a {
 
 <<<<<<< head =======
 
-/*
-@media (max-width: 1215px) {
-  .section-col {
-    grid-template-columns: ;
-  }
-} */ >>>>>>> ec74c81f7c3be12a86e3240eff37af616132d2c9 @media (max-width: 1024px) {
+>>>>>>> ec74c81f7c3be12a86e3240eff37af616132d2c9 @media (max-width: 1024px) {
   .section-col {
     grid-template-columns: 1fr 1fr;
   }
@@ -621,7 +616,7 @@ h1 > a {
   }
 
   <<<<<<< head .social-links > li,
- .other-links > li {
+  .other-links > li {
     margin: 0;
   }
 
