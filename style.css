@@ -505,7 +505,7 @@ h1 > a {
 
 
   .title,
- .funding {
+  .funding {
     padding-left: 20px;
   }
 
@@ -560,17 +560,17 @@ h1 > a {
     }
 
     .story-image1,
- .story-image2,
- .story-image3,
- .story-image4,
+    .story-image2,
+    .story-image3,
+    .story-image4,
     .story-image5,
- .story-image6,
- .story-image7,
- .story-image8,
+    .story-image6,
+    .story-image7,
+    .story-image8,
     .story-image11,
- .story-image21,
- .story-image31,
- .story-image41 {
+    .story-image21,
+    .story-image31,
+    .story-image41 {
       width: 75px;
       height: 75px;
       float: left;
