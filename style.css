@@ -41,6 +41,16 @@ h1 > a {
   display: none;
 }
 
+.blog-item a {
+  color: #555;
+  display: block;
+  padding: 6px 0 6px 18px;
+  position: relative;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.2rem;
+}
+
 .title,
 .funding {
   padding-left: 20px;
@@ -56,16 +66,6 @@ h1 > a {
   font-weight: 700;
 }
 
-.funding a:hover {
-  color: #000
-}
-
-.recent-blog h2 a:hover,
-.title:hover,
-.deals-title:hover {
-  color: black;
-}
-
 .recent-blog h2 a {
   color: #f42;
   font-weight: bolder;
@@ -74,6 +74,78 @@ h1 > a {
   font-family: "Chivo", sans-serif;
   margin-top: 12px;
   letter-spacing: 0.02rem;
+}
+
+.popular-baseline li a {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.blog-latest ul li a {
+  font-size: 14px;
+  max-height: 56px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.deals-title {
+  color: #f42;
+  font-weight: bolder;
+  font-size: 28px;
+  line-height: 32px;
+  font-family: "Chivo", sans-serif;
+  letter-spacing: 0.02rem;
+  cursor: pointer;
+}
+
+.deal-story-title > a {
+  font-weight: 700;
+  margin-bottom: 1px;
+  font-size: 14px;
+  color: #111;
+}
+
+.social-links li a {
+    background: #333;
+    border-radius: 50%;
+    display: block;
+    height: 40px;
+    padding: 12px;
+    color: #eee;
+    text-align: center;
+    width: 40px;
+    box-sizing: border-box;
+}
+
+.deal-story-title > a:hover {
+  color: #f42;
+  text-decoration: underline rgb(243, 194, 185) solid;
+}
+
+.blog-item a:hover {
+  color: #000;
+}
+
+.funding a:hover {
+  color: #000
+}
+
+.social-links li a:hover {
+ background: transparent;
+  box-shadow: inset 0 0 0 2px #333;
+}
+
+.recent-blog h2 a:hover,
+.title:hover,
+.deals-title:hover {
+  color: black;
+}
+
+.blog-latest ul li a:hover {
+  text-decoration: underline rgb(240, 182, 172) solid;
 }
 
 .top-container {
@@ -106,7 +178,7 @@ h1 > a {
   right: 0;
   left: 0;
   background-size: 100% 100%;
-  background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png);
+  background-image: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png);
 }
 
 .popular-header {
@@ -146,9 +218,6 @@ h1 > a {
   padding: 5px 0;
 }
 
-.popular-baseline li a {
-  color: hsla(0, 0%, 100%, 0.6);
-}
 .blog-one {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Insta-group-stories-1-368x276.jpg)
 }
@@ -234,20 +303,6 @@ h1 > a {
   line-height: 1.5;
 }
 
-.blog-latest ul li a {
-  font-size: 14px;
-  max-height: 56px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  width: 100%;
-  color: #f42;
-  font-weight: 700;
-  line-height: 1.25;
-}
-
-.blog-latest ul li a:hover {
-  text-decoration: underline rgb(240, 182, 172) solid;
-}
 .popular-header h3:hover {
   text-decoration: underline rgb(206, 206, 206) solid;
 }
@@ -275,9 +330,15 @@ h1 > a {
   font-size: 13px;
 }
 
+.social-links > li, .other-links > li {
+  display: inline-block;
+  margin: 0 3px;
+}
+
 .more-blog {
   padding-bottom: 40px;
 }
+
 .more-blog ul li {
   border-bottom: 1px solid #eee;
 }
@@ -299,24 +360,6 @@ h1 > a {
   align-items: center;
 }
 
-.blog-item a {
-  color: #555;
-  display: block;
-  padding: 6px 0 6px 18px;
-  position: relative;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-  font-size: 13px;
-  line-height: 1.2rem;
-}
-
-.blog-item a:hover {
-  color: #000;
-}
-
-.caret:hover::after {
-  background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" stroke="%23000" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"/></svg>');
-}
-
 .caret::after {
   background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" stroke="%23F42" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"/></svg>');
   background-size: 16px 16px;
@@ -327,6 +370,10 @@ h1 > a {
   position: relative;
   top: 0;
   width: 16px;
+}
+
+.caret:hover::after {
+  background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" stroke="%23000" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"/></svg>');
 }
 
 .deals-section {
@@ -340,16 +387,6 @@ h1 > a {
   justify-content: space-between;
   padding: 5px 0 24px 0;
   align-items: center;
-}
-
-.deals-title {
-  color: #f42;
-  font-weight: bolder;
-  font-size: 28px;
-  line-height: 32px;
-  font-family: "Chivo", sans-serif;
-  letter-spacing: 0.02rem;
-  cursor: pointer;
 }
 
 .more-deals {
@@ -393,8 +430,6 @@ h1 > a {
 .deal-image-4 {
   background-image: url("https://cdnp3.stackassets.com/f6768e41a9920bdcd086be7719365387529af7bc/store/68d73c3ec232ea7a6c53f2eb216430cc3019f60a64a6a8ed28f265785f1b/sale_21856_primary_image.jpg");
 }
-
-
 
 .deal-image-5 {
   background-image:url("https://cdnp0.stackassets.com/0bcaf472e484efc5812ba81caff99e8d92b3e6e9/store/a608033f5bd5c0926a52360990ea5bd8a7241593db592e096d16df200727/product_30218_product_shots4.jpg");
@@ -453,18 +488,6 @@ h1 > a {
   width: 100%;
 }
 
-.deal-story-title > a {
-  font-weight: 700;
-  margin-bottom: 1px;
-  font-size: 14px;
-  color: #111;
-}
-
-.deal-story-title > a:hover {
-  color: #f42;
-  text-decoration: underline rgb(243, 194, 185) solid;
-}
-
 .deal-price {
   overflow: hidden;
   color: #aaa;
@@ -505,28 +528,6 @@ h1 > a {
   margin: 0 auto;
   max-width: 1192px;
   padding: 0 20px;
-}
-
-.social-links > li, .other-links > li {
-  display: inline-block;
-  margin: 0 3px;
-}
-
-.social-links li a {
-    background: #333;
-    border-radius: 50%;
-    display: block;
-    height: 40px;
-    padding: 12px;
-    color: #eee;
-    text-align: center;
-    width: 40px;
-    box-sizing: border-box;
-}
-
-.social-links li a:hover {
- background: transparent;
-  box-shadow: inset 0 0 0 2px #333;
 }
 
 .other-links li a {
