@@ -45,13 +45,13 @@ h1 > a {
 }
 
 .other-links li a {
-    font-weight: 500;
-    text-transform: uppercase;
-    font-size: 13px;
-    line-height: 24px;
-    margin: 0 4px;
-    font-family: "Titillium Web", sans-serif;
-    color: #aaa;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 24px;
+  margin: 0 4px;
+  font-family: "Titillium Web", sans-serif;
+  color: #aaa;
 }
 
 .section-col {
@@ -98,15 +98,15 @@ h1 > a {
 }
 
 .social-links li a {
-    background: #333;
-    border-radius: 50%;
-    display: block;
-    height: 40px;
-    padding: 12px;
-    color: #eee;
-    text-align: center;
-    width: 40px;
-    box-sizing: border-box;
+  background: #333;
+  border-radius: 50%;
+  display: block;
+  height: 40px;
+  padding: 12px;
+  color: #eee;
+  text-align: center;
+  width: 40px;
+  box-sizing: border-box;
 }
 
 .blog-latest ul li a {
@@ -140,11 +140,11 @@ h1 > a {
 }
 
 .funding a:hover {
-  color: #000
+  color: #000;
 }
 
 .social-links li a:hover {
- background: transparent;
+  background: transparent;
   box-shadow: inset 0 0 0 2px #333;
 }
 
@@ -178,7 +178,6 @@ h1 > a {
   bottom: 0;
   right: 0;
   left: 0;
-
   position: absolute;
   z-index: 1;
   opacity: 1;
@@ -233,11 +232,11 @@ h1 > a {
 }
 
 .blog-one {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Insta-group-stories-1-368x276.jpg)
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Insta-group-stories-1-368x276.jpg);
 }
 
 .blog-two {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Apple-TV-back-to-the-future-header-image-368x276.png)
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Apple-TV-back-to-the-future-header-image-368x276.png);
 }
 
 .blog-three {
@@ -249,7 +248,7 @@ h1 > a {
 }
 
 .blog-five {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/qusai-akoud-4c-S3I1IUUw-unsplash-368x276.jpg)
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/qusai-akoud-4c-S3I1IUUw-unsplash-368x276.jpg);
 }
 
 .blog-six {
@@ -261,7 +260,7 @@ h1 > a {
 }
 
 .blog-eight {
-      background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Wendys-RPG-368x276.jpg);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Wendys-RPG-368x276.jpg);
 }
 
 .latest-image-1 {
@@ -277,11 +276,11 @@ h1 > a {
 }
 
 .latest-image-4 {
- background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/youporn-private-sign-in-reddit-youtube.jpg);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/youporn-private-sign-in-reddit-youtube.jpg);
 }
 
 .latest-image-5 {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/download30.png)
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/download30.png);
 }
 
 .latest-image-6 {
@@ -289,11 +288,11 @@ h1 > a {
 }
 
 .latest-image-7 {
-      background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Pam-Angela-The-Office.jpg);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Pam-Angela-The-Office.jpg);
 }
 
 .latest-image-8 {
-      background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Star-Wars-Dutch-Oven.jpg);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Star-Wars-Dutch-Oven.jpg);
 }
 
 .blog-latest {
@@ -307,6 +306,7 @@ h1 > a {
 .blog-latest ul {
   padding: 16px 5px 0 16px;
 }
+
 .blog-latest ul li h3 {
   color: #f42;
   font-size: 13px;
@@ -344,7 +344,8 @@ h1 > a {
   font-size: 13px;
 }
 
-.social-links > li, .other-links > li {
+.social-links > li,
+ .other-links > li {
   display: inline-block;
   margin: 0 3px;
 }
@@ -357,16 +358,16 @@ h1 > a {
   border-bottom: 1px solid #eee;
 }
 
-.blog-item a::before{
+.blog-item a::before {
   background-color: #f42;
-    border-radius: 50%;
-    content: "";
-    display: block;
-    height: 4px;
-    left: 0;
-    position: absolute;
-    top: 13px;
-    width: 4px;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 4px;
+  left: 0;
+  position: absolute;
+  top: 13px;
+  width: 4px;
 }
 
 .blog-item {
@@ -446,7 +447,7 @@ h1 > a {
 }
 
 .deal-image-5 {
-  background-image:url("https://cdnp0.stackassets.com/0bcaf472e484efc5812ba81caff99e8d92b3e6e9/store/a608033f5bd5c0926a52360990ea5bd8a7241593db592e096d16df200727/product_30218_product_shots4.jpg");
+  background-image: url("https://cdnp0.stackassets.com/0bcaf472e484efc5812ba81caff99e8d92b3e6e9/store/a608033f5bd5c0926a52360990ea5bd8a7241593db592e096d16df200727/product_30218_product_shots4.jpg");
 }
 
 .deal-image-6 {
@@ -460,6 +461,7 @@ h1 > a {
 .deal-image-8 {
   background-image: url("https://cdnp2.stackassets.com/a0695bf765f5209ae845b845a7c316092891ea4a/store/54b7b525a385b2b1962c1fa649e01986728b5e98aa2a64343bbbf30681bd/sale_15929_primary_image.jpg");
 }
+
 .deal-photo {
   left: 0;
   position: initial;
@@ -532,13 +534,13 @@ h1 > a {
   text-align: center;
 }
 
-.footer-upper{
+.footer-upper {
   background: #131313;
   padding: 2.5em 0;
   color: #555;
 }
 
-.footer-links{
+.footer-links {
   margin: 0 auto;
   max-width: 1192px;
   padding: 0 20px;
@@ -576,10 +578,9 @@ h1 > a {
   }
 
   .deals {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-
-}
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
