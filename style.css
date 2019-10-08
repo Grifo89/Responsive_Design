@@ -512,7 +512,7 @@ h1 > a {
 }
 
 .social-links > li,
- .other-links > li {
+.other-links > li {
   display: inline-block;
   margin: 0 3px;
 }
