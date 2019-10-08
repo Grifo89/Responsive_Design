@@ -41,6 +41,28 @@ h1 > a {
   display: none;
 }
 
+.title,
+.funding {
+    padding-left: 20px;
+  }
+
+.title {
+  margin: 0 auto;
+  max-width: 1188px;
+  padding: 60px 0 0 10px;
+  font-size: 28px;
+  line-height: 32px;
+  color: #f42;
+  font-weight: 700;
+}
+
+.recent-blog h2 a:hover,
+.title:hover,
+.funding a:hover,
+.deals-title:hover {
+  color: black;
+}
+
 .recent-blog h2 a {
   color: #f42;
   font-weight: bolder;
@@ -49,18 +71,6 @@ h1 > a {
   font-family: "Chivo", sans-serif;
   margin-top: 12px;
   letter-spacing: 0.02rem;
-}
-
-.title,
-.funding {
-    padding-left: 20px;
-  }
-
-.recent-blog h2 a:hover,
-.title:hover,
-.funding a:hover,
-.deals-title:hover {
-  color: black;
 }
 
 .top-container {
@@ -603,7 +613,6 @@ h1 > a {
     top: 30px;
   }
 
-
   .deal-discount {
     display: none;
   }
@@ -645,16 +654,6 @@ h1 > a {
   max-height: 227px;
   position: relative;
   padding: 12px;
-}
-
-.title {
-  margin: 0 auto;
-  max-width: 1188px;
-  padding: 60px 0 0 10px;
-  font-size: 28px;
-  line-height: 32px;
-  color: #f42;
-  font-weight: 700;
 }
 
 .right {
@@ -785,7 +784,6 @@ h1 > a {
   background-size: 100% 100%;
   bottom: 0;
   left: 0;
-  position: absolute;
   top: 0;
   right: 0;
   z-index: 3;
