@@ -15,10 +15,9 @@ a {
   padding: 20px;
 }
 
-/* .recent-blog {
-  display: flex;
-  flex-direction: column;
-} */
+.hidden-title {
+  display: none;
+}
 
 .recent-blog h2 a {
   color: #f42;
