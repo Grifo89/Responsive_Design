@@ -53,8 +53,8 @@ h1 > a {
 
 .title,
 .funding {
-  padding-left: 20px;
-}
+    padding-left: 20px;
+  }
 
 .recent-blog h2 a:hover,
 .title:hover,
@@ -241,7 +241,6 @@ h1 > a {
 }
 
 .latest-image {
-  /* background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/02/Samsung-Galaxy-Fold-hed.jpg); */
   background-repeat: no-repeat;
   background-color: #000;
   background-position: 50%;
@@ -558,15 +557,16 @@ h1 > a {
   color: #f42;
 }
 
-<<<<<<< head ======= >>>>>>> ec74c81f7c3be12a86e3240eff37af616132d2c9 @media (max-width: 1024px) {
+@media (max-width: 1024px) {
   .section-col {
     grid-template-columns: 1fr 1fr;
   }
 
   .deals {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+}
 }
 
 @media (max-width: 768px) {
@@ -613,16 +613,9 @@ h1 > a {
     width: 8px;
   }
 
-  <<<<<<< head .social-links > li,
-  .other-links > li {
-    margin: 0;
-  }
-
-  ======= .social-links > li,
-  .other-links > li {
-    margin: 0;
-  }
->>>>>>> ec74c81f7c3be12a86e3240eff37af616132d2c9
+  .social-links > li, .other-links > li {
+  margin: 0;
+}
 }
 
 .block-anchor {
@@ -685,8 +678,6 @@ h1 > a {
   color: white;
 }
 
-/* NAV2 */
-
 .logo {
   background: transparent url("https://cdn2.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-144x144.png");
   background-size: cover;
@@ -732,8 +723,6 @@ h1 > a {
   padding: 3px 10px;
   height: 449px;
   max-width: 1349px;
-
-  /* margin-bottom: 100px; */
 }
 
 .hero .thumbnail-hero {
