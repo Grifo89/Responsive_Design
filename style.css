@@ -558,9 +558,7 @@ h1 > a {
   color: #f42;
 }
 
-<<<<<<< head =======
-
->>>>>>> ec74c81f7c3be12a86e3240eff37af616132d2c9 @media (max-width: 1024px) {
+<<<<<<< head ======= >>>>>>> ec74c81f7c3be12a86e3240eff37af616132d2c9 @media (max-width: 1024px) {
   .section-col {
     grid-template-columns: 1fr 1fr;
   }
