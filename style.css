@@ -56,9 +56,12 @@ h1 > a {
   font-weight: 700;
 }
 
+.funding a:hover {
+  color: #000
+}
+
 .recent-blog h2 a:hover,
 .title:hover,
-.funding a:hover,
 .deals-title:hover {
   color: black;
 }
