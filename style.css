@@ -9,7 +9,7 @@ a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
-  column-gap: 20px;
+  grid-gap: 20px;
   margin: 0 auto;
   max-width: 1192px;
   padding: 20px;
@@ -26,12 +26,13 @@ a {
   font-size: 28px;
   line-height: 32px;
   font-family: "Chivo", sans-serif;
-  padding: 12px 0;
+  /* padding: 12px 0; */
   margin-top: 12px;
-  letter-spacing: 0.09rem;
+  letter-spacing: 0.02rem;
 }
 
-.recent-blog h2 a:hover {
+.recent-blog h2 a:hover,
+.deals-title:hover {
   color: black;
 }
 
@@ -39,7 +40,7 @@ a {
   position: relative;
   padding-top: 75%;
   height: 0;
-  margin-top: 12px;
+  margin-top: 24px;
   width: 100%;
 }
 
@@ -47,28 +48,25 @@ a {
   background-size: cover;
   background-position: 50%;
   background-color: #000;
-  /* top: 0; */
+  top: 0;
   bottom: 0;
   right: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+
   position: absolute;
-  z-index: -1;
-  opacity: 0.9;
+  z-index: 1;
+  opacity: 1;
 }
 
 .shadow-logo {
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   top: 0;
-  bottom: 0px;
+  bottom: 0;
   right: 0;
   left: 0;
-  opacity: 1;
   background-size: 100% 100%;
-  /* background: transparent linear-gradient(to top, black, white); */
-  background: transparent url(./assets/image-gradient.png);
+  background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png);
 }
 
 .popular-header {
@@ -78,7 +76,7 @@ a {
   right: 0;
   left: 0;
   bottom: 0;
-  z-index: 2;
+  z-index: 3;
 }
 
 .popular-header h5 {
@@ -111,23 +109,77 @@ a {
 .popular-baseline li a {
   color: hsla(0, 0%, 100%, 0.6);
 }
-/* .blog-one {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/cheap-dell-s3219d-monitor-368x276.jpg);
+.blog-one {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Insta-group-stories-1-368x276.jpg)
 }
 
 .blog-two {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/zenkey-hed-368x276.png);
-} */
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Apple-TV-back-to-the-future-header-image-368x276.png)
+}
 
 .blog-three {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/TikTok-Court-368x276.jpg);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/Signal-368x276.jpg);
 }
+
+.blog-four {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/07/amazon-boxes-prime-2017-368x276.jpg);
+}
+
+.blog-five {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/qusai-akoud-4c-S3I1IUUw-unsplash-368x276.jpg)
+}
+
+.blog-six {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design-91-368x276.jpg);
+}
+
+.blog-seven {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Google-Assistant-phone-line-368x276.jpg);
+}
+
+.blog-eight {
+      background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Wendys-RPG-368x276.jpg);
+}
+
+.latest-image-1 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Snag_84e67777.png);
+}
+
+.latest-image-2 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Snag_84a9491c.png);
+}
+
+.latest-image-3 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Catalina.jpg);
+}
+
+.latest-image-4 {
+ background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/youporn-private-sign-in-reddit-youtube.jpg);
+}
+
+.latest-image-5 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/download30.png)
+}
+
+.latest-image-6 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/06/sandwich-hacker.png);
+}
+
+.latest-image-7 {
+      background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Pam-Angela-The-Office.jpg);
+}
+
+.latest-image-8 {
+      background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Star-Wars-Dutch-Oven.jpg);
+}
+
 
 .blog-latest {
   display: grid;
   grid-template-columns: 2fr minmax(96px, 100px);
   grid-template-rows: minmax(96px, 100px);
   background-color: rgba(255, 68, 34, 0.06);
+  margin-top: 2px;
 }
 
 .blog-latest ul {
@@ -154,19 +206,19 @@ a {
   line-height: 1.25;
 }
 
-.blog-latest ul li a:hover,
+.blog-latest ul li a:hover {
+  text-decoration: underline rgb(240, 182, 172) solid;
+}
 .popular-header h3:hover {
-  text-decoration: underline;
+  text-decoration: underline rgb(206, 206, 206) solid;
 }
 
 .latest-image {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/02/Samsung-Galaxy-Fold-hed.jpg);
+  /* background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/02/Samsung-Galaxy-Fold-hed.jpg); */
   background-repeat: no-repeat;
   background-color: #000;
   background-position: 50%;
   background-size: cover;
-  height: 96px;
-  width: 96px;
 }
 
 .more-blog {
@@ -174,6 +226,18 @@ a {
 }
 .more-blog ul li {
   border-bottom: 1px solid #eee;
+}
+
+.blog-item a::before{
+  background-color: #f42;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 13px;
+    width: 4px;
 }
 
 .blog-item {
@@ -184,7 +248,7 @@ a {
 .blog-item a {
   color: #555;
   display: block;
-  padding: 6px 0 6px 10px;
+  padding: 6px 0 6px 18px;
   position: relative;
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   font-size: 13px;
@@ -193,13 +257,6 @@ a {
 
 .blog-item a:hover {
   color: #000;
-}
-
-.blog-item div {
-  background-color: #f42;
-  border-radius: 50%;
-  height: 6px;
-  width: 12px;
 }
 
 .caret:hover::after {
@@ -218,6 +275,237 @@ a {
   width: 16px;
 }
 
+.deals-section {
+  margin: 0 auto;
+  max-width: 1192px;
+  padding: 20px;
+}
+
+.deals-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0 24px 0;
+  align-items: center;
+}
+
+.deals-title {
+  color: #f42;
+  font-weight: bolder;
+  font-size: 28px;
+  line-height: 32px;
+  font-family: "Chivo", sans-serif;
+  letter-spacing: 0.02rem;
+  cursor: pointer;
+}
+
+.more-deals {
+  color: #f42;
+}
+
+.more-deals:hover {
+  color: #111;
+}
+
+.deals {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+
+.deals-item {
+  min-height: 72px;
+  position: relative;
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+.deal-story {
+  padding-left: 0;
+}
+
+.deal-image-1 {
+  background-image: url("https://cdnp3.stackassets.com/80ea22e2919f5826b2765ad58a70ffdb0b1e217a/store/de89b6bc5feee838ebfcc0ae7ccc32f5e1556f453b6f538292a1e60842a4/sale_22062_primary_image.jpg");
+}
+
+.deal-image-2 {
+  background-image: url("https://cdnp1.stackassets.com/4c6357549bbe196eac7a2a550f3cf2a380f39e44/store/7d5851d962ea8a62a7e9939f0efebc686b69d83821b63060d3109048021b/sale_19399_primary_image.jpg");
+}
+
+.deal-image-3 {
+  background-image: url("https://cdnp2.stackassets.com/9bfcf7d57291fdbaedfef0ca269c21a6264fa5d5/store/551a266bb1b658bfca7a48be3ae2739adcc71803ce42255c3b110e4bc779/sale_22291_primary_image.jpg");
+}
+
+.deal-image-4 {
+  background-image: url("https://cdnp3.stackassets.com/f6768e41a9920bdcd086be7719365387529af7bc/store/68d73c3ec232ea7a6c53f2eb216430cc3019f60a64a6a8ed28f265785f1b/sale_21856_primary_image.jpg");
+}
+
+
+
+.deal-image-5 {
+  background-image:url("https://cdnp0.stackassets.com/0bcaf472e484efc5812ba81caff99e8d92b3e6e9/store/a608033f5bd5c0926a52360990ea5bd8a7241593db592e096d16df200727/product_30218_product_shots4.jpg");
+}
+
+.deal-image-6 {
+  background-image: url("https://cdnp0.stackassets.com/72ec5f6be82aa335c0705e20589a5f323ebb7cbb/store/627accf6e5520cc7b240d6376619f1ade8d7b9cad265639ffc6acbe89a96/sale_20564_primary_image.jpg");
+}
+
+.deal-image-7 {
+  background-image: url("https://cdnp1.stackassets.com/8d42ed94c5d1b5f03edbf017be3c9abc50c08e6a/store/d1f496d0e86783f61df9f78dca238fe1e7bf03690d064b709038ca4d648a/sale_22408_primary_image.jpg");
+}
+
+.deal-image-8 {
+  background-image: url("https://cdnp2.stackassets.com/a0695bf765f5209ae845b845a7c316092891ea4a/store/54b7b525a385b2b1962c1fa649e01986728b5e98aa2a64343bbbf30681bd/sale_15929_primary_image.jpg");
+}
+.deal-photo {
+  left: 0;
+  position: initial;
+  top: 0;
+  width: initial;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 8px;
+  padding-top: 74.5%;
+}
+
+.deal-discount {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #000;
+  background-image: url("./assets/deals-ribbon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  height: 80px;
+  overflow: hidden;
+  width: 80px;
+  z-index: 10;
+}
+
+.deal-discount div {
+  transform: rotate(45deg);
+  font-size: 14px;
+  font-weight: 700;
+  left: 8px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  top: 20px;
+  width: 100%;
+}
+
+.deal-story-title > a {
+  font-weight: 700;
+  margin-bottom: 1px;
+  font-size: 14px;
+  color: #111;
+}
+
+.deal-story-title > a:hover {
+  color: #f42;
+  text-decoration: underline rgb(243, 194, 185) solid;
+}
+
+.deal-price {
+  overflow: hidden;
+  color: #aaa;
+  font-size: 12px;
+  line-height: 18px;
+  padding-top: 4px;
+  vertical-align: baseline;
+}
+
+.old-price {
+  text-decoration: line-through;
+  margin-right: 4px;
+}
+
+.new-price {
+  color: #555;
+  font-size: 14px;
+}
+
+.footer-section {
+  text-align: center;
+}
+
+.footer-upper{
+  background: #131313;
+  padding: 2.5em 0;
+  color: #555;
+}
+
+.footer-links{
+  margin: 0 auto;
+  max-width: 1192px;
+  padding: 0 20px;
+}
+
+.social-links > li, .other-links > li {
+  display: inline-block;
+  margin: 0 3px;
+}
+
+.social-links li a {
+    background: #333;
+    border-radius: 50%;
+    display: block;
+    height: 40px;
+    padding: 12px;
+    color: #eee;
+    text-align: center;
+    width: 40px;
+    box-sizing: border-box;
+}
+
+.social-links li a:hover {
+ background: transparent;
+  box-shadow: inset 0 0 0 2px #333;
+}
+
+.other-links li a {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 24px;
+    margin: 0 4px;
+    font-family: "Titillium Web", sans-serif;
+    color: #aaa;
+}
+
+.other-links li a:hover {
+  color: white;
+}
+
+.social-links {
+  margin-bottom: 1.5em;
+}
+
+.footer-bottom {
+  background: #000;
+    color: #aaa;
+    font-size: 13px;
+    padding: 2.5em 0;
+}
+ .footer-bottom .footer-copyright span {
+    display: inline-block;
+  }
+
+.footer-bottom .footer-copyright .logo{
+  display: inline-block;
+    height: 9px;
+    margin-right: 1px;
+    vertical-align: baseline;
+}
+
+.footer-bottom .footer-copyright span b {
+  color: #f42;
+}
 /* 
 @media (max-width: 1215px) {
   .section-col {
@@ -229,6 +517,12 @@ a {
   .section-col {
     grid-template-columns: 1fr 1fr;
   }
+
+  .deals {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+}
 }
 
 @media (max-width: 768px) {
@@ -236,8 +530,51 @@ a {
     grid-template-columns: 1fr;
   }
 
+  .deals {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+
+.deal-photo {
+  left: 0;
+    padding-top: 75px;
+    position: absolute;
+    top: 0;
+    width: 75px;
+    background-size: cover;
+   
+}
+
+.deal-story-title > a {
+  position: absolute;
+  left: 82px;
+   padding: 2px 0 0 8px;
+}
+
+.deal-price {
+  position: absolute;
+  left: 82px;
+  padding: 5px 0 0 8px;
+  top: 30px;
+}
+
+
+.deal-discount {
+  display: none;
+}
+
   .blog-item div {
     height: 4px;
     width: 8px;
   }
+
+  .social-links > li, .other-links > li {
+  margin: 0;
 }
+
+}
+
+
+
