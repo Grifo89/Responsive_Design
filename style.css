@@ -21,10 +21,27 @@ h1 > a {
   margin-left: 15px;
 }
 
+.deal-story-title > a {
+  font-weight: 700;
+  margin-bottom: 1px;
+  font-size: 14px;
+  color: #111;
+}
+
 .nav2-icons a {
   position: relative;
   left: 16px;
   font-size: 20px;
+}
+
+.other-links li a {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 24px;
+    margin: 0 4px;
+    font-family: "Titillium Web", sans-serif;
+    color: #aaa;
 }
 
 .section-col {
@@ -80,6 +97,18 @@ h1 > a {
   color: hsla(0, 0%, 100%, 0.6);
 }
 
+.social-links li a {
+    background: #333;
+    border-radius: 50%;
+    display: block;
+    height: 40px;
+    padding: 12px;
+    color: #eee;
+    text-align: center;
+    width: 40px;
+    box-sizing: border-box;
+}
+
 .blog-latest ul li a {
   font-size: 14px;
   max-height: 56px;
@@ -99,25 +128,6 @@ h1 > a {
   font-family: "Chivo", sans-serif;
   letter-spacing: 0.02rem;
   cursor: pointer;
-}
-
-.deal-story-title > a {
-  font-weight: 700;
-  margin-bottom: 1px;
-  font-size: 14px;
-  color: #111;
-}
-
-.social-links li a {
-    background: #333;
-    border-radius: 50%;
-    display: block;
-    height: 40px;
-    padding: 12px;
-    color: #eee;
-    text-align: center;
-    width: 40px;
-    box-sizing: border-box;
 }
 
 .deal-story-title > a:hover {
@@ -142,6 +152,10 @@ h1 > a {
 .title:hover,
 .deals-title:hover {
   color: black;
+}
+
+.other-links li a:hover {
+  color: white;
 }
 
 .blog-latest ul li a:hover {
@@ -528,20 +542,6 @@ h1 > a {
   margin: 0 auto;
   max-width: 1192px;
   padding: 0 20px;
-}
-
-.other-links li a {
-    font-weight: 500;
-    text-transform: uppercase;
-    font-size: 13px;
-    line-height: 24px;
-    margin: 0 4px;
-    font-family: "Titillium Web", sans-serif;
-    color: #aaa;
-}
-
-.other-links li a:hover {
-  color: white;
 }
 
 .social-links {
