@@ -614,7 +614,7 @@ h1 > a {
   }
 
   .social-links > li,
- .other-links > li {
+  .other-links > li {
     margin: 0;
   }
 }
