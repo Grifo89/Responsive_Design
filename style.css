@@ -6,17 +6,24 @@ body {
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 }
 
-/* GENERALES */
 * {
   box-sizing: border-box;
-
-  /* border: 1px solid red !important; */
 }
 
 a {
   text-decoration: none;
   color: inherit;
   margin: 0 !important;
+}
+
+h1 > a {
+  margin-left: 15px;
+}
+
+.nav2-icons a {
+  position: relative;
+  left: 16px;
+  font-size: 20px;
 }
 
 .section-col {
@@ -39,10 +46,14 @@ a {
   font-size: 28px;
   line-height: 32px;
   font-family: "Chivo", sans-serif;
-  /* padding: 12px 0; */
   margin-top: 12px;
   letter-spacing: 0.02rem;
 }
+
+.title,
+.funding {
+    padding-left: 20px;
+  }
 
 .recent-blog h2 a:hover,
 .title:hover,
@@ -234,6 +245,22 @@ a {
   background-color: #000;
   background-position: 50%;
   background-size: cover;
+}
+
+.cover-links li {
+  display: inline-block;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.story-cover-links li {
+  display: inline-block;
+  font-size: 13px;
+  color: #aaa;
+}
+
+.investment-story li {
+  padding: 7px 0;
+  font-size: 13px;
 }
 
 .more-blog {
@@ -445,6 +472,13 @@ a {
   font-size: 14px;
 }
 
+.investment-bottom span {
+  color: #555;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
 .footer-section {
   text-align: center;
 }
@@ -521,12 +555,6 @@ a {
 .footer-bottom .footer-copyright span b {
   color: #f42;
 }
-/*
-@media (max-width: 1215px) {
-  .section-col {
-    grid-template-columns: ;
-  }
-} */
 
 @media (max-width: 1024px) {
   .section-col {
@@ -588,9 +616,7 @@ a {
   .social-links > li, .other-links > li {
   margin: 0;
 }
-
 }
-
 
 .block-anchor {
   display: block;
@@ -630,12 +656,6 @@ a {
   color: #f42;
   font-weight: 700;
 }
-
-/* ====================
-          HEADER
- ====================== */
-
-/* NAV1 */
 
 .right {
   margin-right: 20px;
@@ -687,13 +707,6 @@ a {
   margin: 0;
 }
 
-.nav2-icons a {
-  position: relative;
-  left: 16px;
-  font-size: 20px;
-}
-
-/* SEPARATOR */
 .separator {
   background: rgb(255, 221, 51);
   width: 100%;
@@ -740,7 +753,6 @@ a {
   background-size: cover;
   bottom: 0;
   left: 0;
-  position: absolute;
   right: 0;
   top: 0;
   z-index: 2;
@@ -813,11 +825,6 @@ a {
   padding: 8px;
 }
 
-.cover-links li {
-  display: inline-block;
-  color: hsla(0, 0%, 100%, 0.6);
-}
-
 .type {
   position: absolute;
   z-index: 5;
@@ -826,9 +833,6 @@ a {
   padding: 8px;
 }
 
-/* =================
-    LASTEST NEWS
-=================== */
 .lastest-news {
   padding: 15px 0;
 }
@@ -838,12 +842,6 @@ a {
   line-height: 20px;
   margin-bottom: 0;
   font-weight: 700;
-}
-
-.story-cover-links li {
-  display: inline-block;
-  font-size: 13px;
-  color: #aaa;
 }
 
 .story-image1 {
@@ -974,10 +972,6 @@ a {
   font-weight: 700;
 }
 
-h1 > a {
-  margin-left: 15px;
-}
-
 .funding ul li {
   display: inline-block;
   margin-right: 23px;
@@ -1037,18 +1031,6 @@ h1 > a {
   border-bottom: none;
 }
 
-.investment-story li {
-  padding: 7px 0;
-  font-size: 13px;
-}
-
-.investment-bottom span {
-  color: #555;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 25px;
-}
-
 @media (max-width: 1024px) {
   .logo {
     display: block;
@@ -1060,11 +1042,6 @@ h1 > a {
 
   .funding-rounds .thumbnail:last-child {
     display: none;
-  }
-
-  .title,
-  .funding {
-    padding-left: 20px;
   }
 
   .hero .cover-title {
@@ -1134,12 +1111,6 @@ h1 > a {
     height: 75px;
     float: left;
     margin-right: 30px;
-  }
-
-  .thumbnail-wrapper {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(auto-fill, 88px);
-    grid-gap: 0;
   }
 
   .thumbnail:not(.funding-rounds .thumnail) {
