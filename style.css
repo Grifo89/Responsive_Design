@@ -57,7 +57,7 @@ h1 > a {
 }
 
 .funding a:hover {
-  color: #000
+  color: #000;
 }
 
 .recent-blog h2 a:hover,
