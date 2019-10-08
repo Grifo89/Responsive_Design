@@ -521,7 +521,7 @@ a {
 .footer-bottom .footer-copyright span b {
   color: #f42;
 }
-/* 
+/*
 @media (max-width: 1215px) {
   .section-col {
     grid-template-columns: ;
@@ -536,7 +536,7 @@ a {
   .deals {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  
+
 }
 }
 
@@ -559,7 +559,7 @@ a {
     top: 0;
     width: 75px;
     background-size: cover;
-   
+
 }
 
 .deal-story-title > a {
@@ -679,10 +679,6 @@ a {
   font-size: 14px;
   color: rgb(170, 170, 170);
   text-transform: uppercase;
-}
-
-.nav2 ul li {
-  padding: 0 13px;
 }
 
 .nav2 .nav2-icons {
@@ -1138,14 +1134,13 @@ h1 > a {
       margin-right: 30px;
     }
 
-
     .thumbnail-wrapper {
       grid-template-columns: 1fr;
       grid-template-rows: repeat(auto-fill, 88px);
       grid-gap: 0;
     }
 
-    .thumbnail {
+    .thumbnail:not(.funding-rounds .thumnail) {
       height: 88px;
       display: flex;
     }
