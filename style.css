@@ -392,7 +392,7 @@ a{
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1192px;
-  padding: 30px 0;
+  padding: 30px 0 4px 0;
 }
 
 .funding h1{
@@ -408,6 +408,70 @@ h1>a{
 
 .funding ul li{
   display: inline-block;
+  margin-right: 23px;
+  color: #f42;
+  line-height: 18px;
+  font-size: 16px;
+}
+
+.investment-header{
+  position: relative;
+}
+
+.investment-header h4{
+  background: #f42;
+  color: #fff;
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+  margin: 0!important;
+  font-size: 18px!important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.investment-header-info{
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+  color: #000;
+  background: rgba(255,68,34,.08);
+  margin: 0;
+}
+
+.investment-header-info .money{
+  font-size: 18px;
+  color: #000;
+  font-weight: bolder;
+}
+.investment-header-info .series{
+  color: #000;
+  opacity: .5;
+}
+.investment-header-image{
+  min-width: 60px;
+  max-width: 60px;
+  position: absolute;
+  z-index: 1;
+  margin: 10.6666666667px;
+}
+
+.investment-story{
+  padding: 10px;
+  color: #555;
+  border-bottom: 1px solid #f42;
+}
+
+.investment-story:last-child{
+  border-bottom: none;
+}
+.investment-story li{
+  padding: 7px 0;
+  font-size: 13px;
+}
+
+.investment-bottom span{
+  color: #555;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
 }
 
 @media (max-width: 1024px) {
