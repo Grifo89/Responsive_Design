@@ -29,17 +29,19 @@ a{
 
 .thumbnail-wrapper{
   margin: 0 auto;
-  max-width: 1194px;
+  max-width: 1200px;
   padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, 294px);
-  grid-gap: 0em;
+  grid-gap: 0.5em;
   justify-content: center;
 }
 
 .thumbnail{
-  height: 12rem;
+  max-height: 227px;
   max-width: 270px;
+  position: relative;
+  padding: 12px;
 }
 
 .title{
@@ -129,7 +131,7 @@ a{
   padding: 3px 10px;
   height: 449px;
   max-width: 1349px;
-  margin-bottom: 120px;
+  margin-bottom: 100px;
 }
 
 .hero .thumbnail-hero{
@@ -244,6 +246,145 @@ a{
   color: #fff;
   padding: 8px;
 }
+/*=================
+    LASTEST NEWS
+===================*/
+.lastest-news{
+  padding: 15px 0;
+}
+
+.story-title{
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.story-cover-links li{
+  display: inline-block;
+  font-size: 13px;
+  color: #aaa;
+}
+
+.story-image1{
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/sale_19818_primary_image_wide-540x270.jpg);
+  width: 270px;
+  height: 135px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.story-image2{
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/USB-C-514x270.jpg);
+  width: 270px;
+  height: 135px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.story-image3{
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-512x270.jpg);
+  width: 270px;
+  height: 135px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.story-image4{
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/instagram-dark-mode-ios-13-iphone-516x270.jpg);
+  width: 270px;
+  height: 135px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.story-image5{
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/09/Japan-hacks-first-6-months-bitcoin-cryptocurrency-coincheck-scam-479x270.jpg);
+  width: 270px;
+  height: 135px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.story-image6{
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/syndication4-516x270.jpg);
+  width: 270px;
+  height: 135px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.story-image7{
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design-91-516x270.jpg);
+  width: 270px;
+  height: 135px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.story-image8{
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/instagram-emails-hed-516x270.jpg);
+  width: 270px;
+  height: 135px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*=================
+    MICROSOFT
+===================*/
+.story-image11{
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/597d12de5f1604078c51be9c3b365e60-452x270.jpg);
+  width: 270px;
+  height: 135px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.story-image21{
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/EF4hwt-W4AILDL9-480x270.jpeg);
+  width: 270px;
+  height: 135px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.story-image31{
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Windows-10X-517x270.jpg);
+  width: 270px;
+  height: 135px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.story-image41{
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/MicrosoftSurfaceProx-512x270.jpg);
+  width: 270px;
+  height: 135px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.microsoft-title{
+  padding: 30px 0;
+}
+
+/*=================
+    FUNDING
+===================*/
 
 
 .funding{
@@ -251,7 +392,7 @@ a{
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1192px;
-  padding: 0 20px;
+  padding: 30px 0;
 }
 
 .funding h1{
