@@ -1,33 +1,34 @@
-:root{
+:root {
   height: auto;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 }
 
 /* GENERALES */
-*{
+* {
   box-sizing: border-box;
+
   /* border: 1px solid red !important; */
 }
 
-a{
+a {
   text-decoration: none;
   color: inherit;
   margin: 0 !important;
 }
 
-.block-anchor{
+.block-anchor {
   display: block;
   width: 100%;
   height: 100%;
   position: relative;
 }
 
-.flex{
+.flex {
   display: flex;
   align-items: center;
 }
 
-.thumbnail-wrapper{
+.thumbnail-wrapper {
   margin: 0 auto;
   max-width: 1200px;
   padding: 0;
@@ -37,29 +38,31 @@ a{
   justify-content: center;
 }
 
-.thumbnail{
+.thumbnail {
   max-height: 227px;
   max-width: 270px;
   position: relative;
   padding: 12px;
 }
 
-.title{
+.title {
   margin: 0 auto;
   max-width: 1188px;
+
   /* padding: 0 20px; */
   font-size: 28px;
   line-height: 32px;
   color: #f42;
   font-weight: 700;
 }
-/*====================
+
+/* ====================
           HEADER
- ======================*/
+ ====================== */
 
 /* NAV1 */
 
-.right{
+.right {
   margin-right: 20px;
 }
 
@@ -68,32 +71,33 @@ a{
   justify-content: space-between;
   height: 32px;
   background: #131313;
-  color: hsla(0,0%,100%,.6);
+  color: hsla(0, 0%, 100%, 0.6);
   font-size: 13px;
 }
 
-.nav1 ul li{
+.nav1 ul li {
   margin-left: 17px;
 }
 
-.nav1 ul li a:hover{
+.nav1 ul li a:hover {
   color: white;
 }
 
 /* NAV2 */
 
-.logo{
+.logo {
   background: transparent url("https://cdn2.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-144x144.png");
   background-size: cover;
   background-position: 0% 60%;
 }
 
-.logo, .hamburger{
+.logo,
+ .hamburger {
   display: none;
 }
 
 
-.nav2{
+.nav2 {
   display: flex;
   justify-content: space-between;
   height: 49px;
@@ -103,7 +107,7 @@ a{
   text-transform: uppercase;
 }
 
-.nav2 ul li{
+.nav2 ul li {
   padding: 0 13px;
 }
 
@@ -113,7 +117,7 @@ a{
 }
 
 /* SEPARATOR */
-.separator{
+.separator {
   background: rgb(255, 221, 51);
   width: 100%;
   height: 30px;
@@ -123,7 +127,7 @@ a{
 }
 
 /* HERO */
-.hero{
+.hero {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -134,11 +138,11 @@ a{
   margin-bottom: 100px;
 }
 
-.hero .thumbnail-hero{
+.hero .thumbnail-hero {
   grid-area: 1/1/3/3;
 }
 
-.cover-logo{
+.cover-logo {
   background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg");
   background-repeat: no-repeat;
   width: 50%;
@@ -150,24 +154,24 @@ a{
   z-index: 5;
 }
 
-.gradient{
+.gradient {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png);
   position: absolute;
   width: 100%;
   height: 100%;
   background-position: 0 0;
   background-size: cover;
-  bottom: 0px;
-  left: 0px;
+  bottom: 0;
+  left: 0;
   position: absolute;
-  right: 0px;
-  top: 0px;
+  right: 0;
+  top: 0;
   z-index: 2;
 }
 
 
 
- .hero-gradient{
+.hero-gradient {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/04/instagram-logo-796x398.png");
@@ -175,7 +179,7 @@ a{
   z-index: 0;
 }
 
- .hero-gradient2{
+.hero-gradient2 {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/McLaren-OP-796x418.jpg");
@@ -183,7 +187,7 @@ a{
   z-index: 0;
 }
 
- .hero-gradient3{
+.hero-gradient3 {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Wendys-RPG-796x417.jpg");
@@ -191,7 +195,7 @@ a{
   z-index: 0;
 }
 
-.black-gradient{
+.black-gradient {
   background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png");
   position: absolute;
   background-size: 100% 100%;
@@ -203,70 +207,71 @@ a{
   z-index: 3;
 }
 
-.cover-title{
+.cover-title {
   color: #fff;
   font-size: 56px;
   line-height: 1;
   position: absolute;
   z-index: 5;
   top: 48%;
-  font-family: Avalon,sans-serif;
+  font-family: Avalon, sans-serif;
   font-weight: 700;
   padding: 8px;
 }
 
-.cover-title2{
+.cover-title2 {
   color: #fff;
   font-size: 28px;
   line-height: 1;
   position: absolute;
   z-index: 5;
   top: 50%;
-  font-family: Avalon,sans-serif;
+  font-family: Avalon, sans-serif;
   font-weight: 700;
   padding: 8px;
 }
 
-.cover-links{
+.cover-links {
   position: absolute;
   z-index: 5;
   bottom: 10px;
   padding: 8px;
-
 }
-.cover-links li{
+
+.cover-links li {
   display: inline-block;
-  color: hsla(0,0%,100%,.6);;
+  color: hsla(0, 0%, 100%, 0.6);
 }
 
-.type{
+.type {
   position: absolute;
   z-index: 5;
   top: 42%;
   color: #fff;
   padding: 8px;
 }
-/*=================
+
+/* =================
     LASTEST NEWS
-===================*/
-.lastest-news{
+=================== */
+.lastest-news {
   padding: 15px 0;
 }
 
-.story-title{
+.story-title {
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 0;
   font-weight: 700;
 }
 
-.story-cover-links li{
+.story-cover-links li {
   display: inline-block;
   font-size: 13px;
   color: #aaa;
 }
 
-.story-image1{
+.story-image1 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/sale_19818_primary_image_wide-540x270.jpg);
   width: 270px;
   height: 135px;
@@ -275,7 +280,7 @@ a{
   background-size: cover;
 }
 
-.story-image2{
+.story-image2 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/USB-C-514x270.jpg);
   width: 270px;
   height: 135px;
@@ -284,7 +289,7 @@ a{
   background-size: cover;
 }
 
-.story-image3{
+.story-image3 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-512x270.jpg);
   width: 270px;
   height: 135px;
@@ -293,7 +298,7 @@ a{
   background-size: cover;
 }
 
-.story-image4{
+.story-image4 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/instagram-dark-mode-ios-13-iphone-516x270.jpg);
   width: 270px;
   height: 135px;
@@ -302,7 +307,7 @@ a{
   background-size: cover;
 }
 
-.story-image5{
+.story-image5 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/09/Japan-hacks-first-6-months-bitcoin-cryptocurrency-coincheck-scam-479x270.jpg);
   width: 270px;
   height: 135px;
@@ -311,7 +316,7 @@ a{
   background-size: cover;
 }
 
-.story-image6{
+.story-image6 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/syndication4-516x270.jpg);
   width: 270px;
   height: 135px;
@@ -320,7 +325,7 @@ a{
   background-size: cover;
 }
 
-.story-image7{
+.story-image7 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design-91-516x270.jpg);
   width: 270px;
   height: 135px;
@@ -329,7 +334,7 @@ a{
   background-size: cover;
 }
 
-.story-image8{
+.story-image8 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/instagram-emails-hed-516x270.jpg);
   width: 270px;
   height: 135px;
@@ -339,10 +344,10 @@ a{
 }
 
 
-/*=================
+/* =================
     MICROSOFT
-===================*/
-.story-image11{
+=================== */
+.story-image11 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/597d12de5f1604078c51be9c3b365e60-452x270.jpg);
   width: 270px;
   height: 135px;
@@ -351,7 +356,7 @@ a{
   background-size: cover;
 }
 
-.story-image21{
+.story-image21 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/EF4hwt-W4AILDL9-480x270.jpeg);
   width: 270px;
   height: 135px;
@@ -360,7 +365,7 @@ a{
   background-size: cover;
 }
 
-.story-image31{
+.story-image31 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Windows-10X-517x270.jpg);
   width: 270px;
   height: 135px;
@@ -369,7 +374,7 @@ a{
   background-size: cover;
 }
 
-.story-image41{
+.story-image41 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/MicrosoftSurfaceProx-512x270.jpg);
   width: 270px;
   height: 135px;
@@ -378,16 +383,16 @@ a{
   background-size: cover;
 }
 
-.microsoft-title{
+.microsoft-title {
   padding: 30px 0;
 }
 
-/*=================
+/* =================
     FUNDING
-===================*/
+=================== */
 
 
-.funding{
+.funding {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -395,18 +400,18 @@ a{
   padding: 30px 0 4px 0;
 }
 
-.funding h1{
+.funding h1 {
   font-size: 28px;
   line-height: 32px;
   color: #f42;
   font-weight: 700;
 }
 
-h1>a{
+h1 > a {
   margin-left: 15px;
 }
 
-.funding ul li{
+.funding ul li {
   display: inline-block;
   margin-right: 23px;
   color: #f42;
@@ -414,38 +419,40 @@ h1>a{
   font-size: 16px;
 }
 
-.investment-header{
+.investment-header {
   position: relative;
 }
 
-.investment-header h4{
+.investment-header h4 {
   background: #f42;
   color: #fff;
   padding: 10.6666666667px 16px 10.6666666667px 84px;
-  margin: 0!important;
-  font-size: 18px!important;
+  margin: 0 !important;
+  font-size: 18px !important;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.investment-header-info{
+.investment-header-info {
   padding: 10.6666666667px 16px 10.6666666667px 84px;
   color: #000;
-  background: rgba(255,68,34,.08);
+  background: rgba(255, 68, 34, 0.08);
   margin: 0;
 }
 
-.investment-header-info .money{
+.investment-header-info .money {
   font-size: 18px;
   color: #000;
   font-weight: bolder;
 }
-.investment-header-info .series{
+
+.investment-header-info .series {
   color: #000;
-  opacity: .5;
+  opacity: 0.5;
 }
-.investment-header-image{
+
+.investment-header-image {
   min-width: 60px;
   max-width: 60px;
   position: absolute;
@@ -453,21 +460,22 @@ h1>a{
   margin: 10.6666666667px;
 }
 
-.investment-story{
+.investment-story {
   padding: 10px;
   color: #555;
   border-bottom: 1px solid #f42;
 }
 
-.investment-story:last-child{
+.investment-story:last-child {
   border-bottom: none;
 }
-.investment-story li{
+
+.investment-story li {
   padding: 7px 0;
   font-size: 13px;
 }
 
-.investment-bottom span{
+.investment-bottom span {
   color: #555;
   font-size: 12px;
   font-weight: 400;
@@ -475,7 +483,7 @@ h1>a{
 }
 
 @media (max-width: 1024px) {
-  .logo{
+  .logo {
     display: block;
     height: 82px;
     width: 106px;
@@ -483,56 +491,65 @@ h1>a{
     float: left;
   }
 
-  .funding-rounds .thumbnail:last-child{
+  .funding-rounds .thumbnail:last-child {
     display: none;
   }
-
 }
 
 @media (max-width: 768px) {
-  :root{
+  :root {
     height: auto;
   }
-  .nav1{
+
+  .nav1 {
     display: none;
   }
-  .nav2{
+
+  .nav2 {
     justify-content: flex-end;
   }
-  .nav2-links{
-    display: none
+
+  .nav2-links {
+    display: none;
   }
-  .hamburger{
+
+  .hamburger {
     display: inline-flex;
   }
-  .logo{
+
+  .logo {
     height: 50px;
   }
-  .thumbnail-wrapper{
+
+  .thumbnail-wrapper {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(auto-fill, 88px);
     grid-gap: 0;
   }
-  .thumbnail{
+
+  .thumbnail {
     height: 88px;
     display: flex;
   }
 
-  #thumbnail-funding{
+  #thumbnail-funding {
     height: 13rem;
   }
-  .hero{
+
+  .hero {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 318.4px);
   }
-  .hero .thumbnail-hero{
+
+  .hero .thumbnail-hero {
     grid-area: 1/1/1/1;
   }
-  .funding-rounds .thumbnail:last-child{
+
+  .funding-rounds .thumbnail:last-child {
     display: flex;
   }
-  .funding-rounds{
+
+  .funding-rounds {
     margin-bottom: 40px;
   }
-
 }
