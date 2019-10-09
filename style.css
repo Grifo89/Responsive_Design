@@ -1055,11 +1055,9 @@ h1 > a {
   .cover-logo {
     display: none;
   }
-
 }
 
 @media (max-width: 768px) {
-
   :root {
     height: auto;
   }
