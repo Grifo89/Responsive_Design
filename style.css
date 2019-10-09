@@ -1051,12 +1051,10 @@ h1 > a {
   .hero .cover-title2 {
     font-size: 2vw;
   }
-<<<<<<< HEAD
 
-  .cover-logo{
+  <<<<<<< head .cover-logo {
     display: none;
   }
-
 =======
 >>>>>>> 8513372e7bb10c0432bab5f71546c220844b3bf2
 }
@@ -1144,7 +1142,7 @@ h1 > a {
     font-size: 28px;
   }
 
-  .cover-logo{
+  .cover-logo {
     display: none;
   }
 
@@ -1160,5 +1158,4 @@ h1 > a {
     margin-bottom: 60px;
     overflow: hidden;
   }
-
 }
