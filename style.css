@@ -1060,9 +1060,8 @@ h1 > a {
 =======
 >>>>>>> 8513372e7bb10c0432bab5f71546c220844b3bf2
 }
->>>>>>> 5c6c77d274c4fb79605406d5242baf539631a39b
 
-@media (max-width: 768px) {
+>>>>>>> 5c6c77d274c4fb79605406d5242baf539631a39b @media (max-width: 768px) {
   :root {
     height: auto;
   }
