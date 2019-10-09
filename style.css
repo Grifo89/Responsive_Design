@@ -1051,15 +1051,10 @@ h1 > a {
   .hero .cover-title2 {
     font-size: 2vw;
   }
-<<<<<<< HEAD
 
   .cover-logo{
     display: none;
   }
-
-=======
->>>>>>> 8513372e7bb10c0432bab5f71546c220844b3bf2
-}
 
 @media (max-width: 768px) {
   :root {
