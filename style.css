@@ -1075,6 +1075,10 @@ h1 > a {
     font-size: 2vw;
   }
 
+  .cover-logo{
+    display: none;
+  }
+
 }
 
   @media (max-width: 768px) {
@@ -1166,6 +1170,10 @@ h1 > a {
     font-size: 28px;
   }
 
+  .cover-logo{
+    display: none;
+  }
+
   .funding-rounds .thumbnail:last-child {
     display: inline;
   }
@@ -1176,5 +1184,7 @@ h1 > a {
 
   .funding{
     margin-bottom: 60px;
+    overflow: hidden;
   }
+
 }
