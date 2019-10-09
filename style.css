@@ -1055,8 +1055,16 @@ h1 > a {
  .cover-logo {
     display: none;
   }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 8513372e7bb10c0432bab5f71546c220844b3bf2
+}
+>>>>>>> 9a71f12a387068f95c32bd8c944698103aa5653f
 
-@media (max-width: 768px) {
+>>>>>>> 5c6c77d274c4fb79605406d5242baf539631a39b @media (max-width: 768px) {
   :root {
     height: auto;
   }
