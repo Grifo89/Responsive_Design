@@ -1052,11 +1052,12 @@ h1 > a {
     font-size: 2vw;
   }
 
- .cover-logo {
+  .cover-logo {
     display: none;
   }
 
 @media (max-width: 768px) {
+
   :root {
     height: auto;
   }
