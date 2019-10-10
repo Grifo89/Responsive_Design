@@ -13,7 +13,7 @@ Read more about the project detailed description from the [Odin website](https:/
 
 ### [Assingment Link](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-responsive-design)
 
-### [Live link]()
+### [Live link](https://rawcdn.githack.com/Grifo89/Responsive_Design/a58316fe4c8b53340f3bd4fa75f0d1c916c310bf/index.html)
 
 # Languages Used
 
