@@ -6,20 +6,19 @@ Read more about the project detailed description from the [Odin website](https:/
 
 ## Project Objectives
 
-- Using Bootstrap framework in order to make a responsive website
+- Align all elements with float or flex
 - The page should contain 3 breakpoints
 - Use of media queries
 - Building complex layouts
 
-### [Assingment Link](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap)
+### [Assingment Link](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-responsive-design)
 
-### [Live link](https://rawcdn.githack.com/Grifo89/Bootstrap-project/tree/navbar)
+### [Live link]()
 
 # Languages Used
 
 - HTML
 - CSS
-- Bootstrap framework
 
 # Contributing
 
@@ -34,6 +33,8 @@ If you are working on adding features, PRs, or bugfixes, this section should hel
    > `git push origin 'my-feature-branch'`
 5. Create new Pull Request
 
-# Author
+# Authors
+
+- [Denis Oluka](https://github.com/OlukaDenis)
 
 - [Christian Salazar](https://github.com/Grifo89)
